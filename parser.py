@@ -1,8 +1,11 @@
 import json
 import pandas as pd
 
-path = 'raw_files/cvtcarroparado.txt'
-file = open(path,'r')
+raw_folder_path = 'raw_files/'
+file_path = 'ramp_cvt_data.txt'
+output_folder_path = 'output/'
+
+file = open(raw_folder_path + file_path,'r')
 raw_str = file.read()
 
 current_json_str = ''
@@ -21,7 +24,7 @@ for char in raw_str:
         current_json_str += char
         try:
             current_json = json.loads(current_json_str)
-            if (current_json['t']):
+            if (current_json['b'] and current_json['m']):
                 json_array.append(current_json)
         except:
             pass  
@@ -34,4 +37,6 @@ for char in raw_str:
             char = '"'
         current_json_str += char
 
-pd.read_json(json.dumps(json_array))#.to_excel("output.xlsx")
+pd.read_json(json.dumps(json_array)).to_excel(output_folder_path + file_path[:-4] + ".xlsx")
+
+print ("Done!")
