@@ -8,7 +8,7 @@ This project was created because of a need for a tool to put json data readed on
 
 ### What does it do?  
 
-This scripts take a raw json data with some fails, extracting useful data and putting it to a .xlsx for analysis, as you can see in the image below.
+This scripts take a raw json data with some fails, extracting useful data and putting it to a .xlsx for analysis, as you can see in the images below.
 
 #### Input file and Output file 
 
@@ -37,6 +37,6 @@ This scripts take a raw json data with some fails, extracting useful data and pu
 
 6. run `python parser.py` on main project folder.
 
-7. Take output file on `output_files/` folder.  =D
+7. Take output file on `output_files/` folder =D  .
 
 
