@@ -13,3 +13,6 @@ This scripts take a raw json data with some fails, extracting useful data and pu
 
 #### Output file  
 ![screenshot](https://github.com/LondriBaja/serial-scrambled-json-to-xls/blob/master/screenshots/output_file.PNG)
+
+#### After analysis you can have something like this
+![screenshot](https://github.com/LondriBaja/serial-scrambled-json-to-xls/blob/master/screenshots/manipulated_file.PNG)
