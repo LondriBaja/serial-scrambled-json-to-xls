@@ -1,7 +1,7 @@
 
 # serial-scrambled-json-to-xls
 
-This project was created because the team need a tool to put json data readed on a microcontroller serial port and put it to a spreadsheet on a .xlsx for analysis.
+This project was created because of a need for a tool to put json data readed on a microcontroller serial port and put it to a spreadsheet on a .xlsx for analysis.
 
 ### What does it do?  
 
@@ -29,6 +29,6 @@ This scripts take a raw json data with some fails, extracting useful data and pu
 
 5. Modify the `parser.py` script putting the name of your file on `file_path` variable and change the name of your json attributes in the code. (this step is better described on the comments of the code)
 
-4. run `python parser.py` on main project folder.
+6. run `python parser.py` on main project folder.
 
 
