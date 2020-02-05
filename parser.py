@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 raw_folder_path = 'raw_files/'
-file_path = 'ramp_cvt_data.txt'
+file_path = 'rampa1.txt'
 output_folder_path = 'output/'
 
 file = open(raw_folder_path + file_path,'r')
@@ -24,7 +24,7 @@ for char in raw_str:
         current_json_str += char
         try:
             current_json = json.loads(current_json_str)
-            if (current_json['b'] and current_json['m']):
+            if (current_json['r'] and current_json['s']):
                 json_array.append(current_json)
         except:
             pass  
