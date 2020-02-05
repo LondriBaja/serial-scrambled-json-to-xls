@@ -25,10 +25,12 @@ This scripts take a raw json data with some fails, extracting useful data and pu
 
 3. Clone/download this folder to your computer.
 
-4. Put input files on input_files/ folder.
+4. Put input files on `input_files/` folder.
 
 5. Modify the `parser.py` script putting the name of your file on `file_path` variable and change the name of your json attributes in the code. (this step is better described on the comments of the code)
 
 6. run `python parser.py` on main project folder.
+
+7. Take output file on `output_files/` folder.  =D
 
 
