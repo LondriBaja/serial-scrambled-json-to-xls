@@ -37,6 +37,6 @@ This scripts take a raw json data with some fails, extracting useful data and pu
 
 6. run `python parser.py` on main project folder.
 
-7. Take output file on `output_files/` folder =D  .
+7. Take output file on `output_files/` folder.
 
 
